@@ -181,10 +181,10 @@
 
 %==[ dumping routine ]==========================================================
 
-\def\kDMitraMaybeDumpCell{\noexpand\pgfextra{%
+\def\kDMitraMaybeDumpCell{\noexpand\path\noexpand\pgfextra{%
   \noexpand\kDDump{'\noexpand\the\noexpand\pgfmatrixcurrentrow-\noexpand\the\noexpand\pgfmatrixcurrentcolumn':}%
   \noexpand\kDDump{\space\space options: '\the\kDMitraCelOptTok'}%
-  \noexpand\kDDump{\space\space content: '\the\kDMitraCelCntTok'}}}
+  \noexpand\kDDump{\space\space content: '\the\kDMitraCelCntTok'}};}
 
 %==[ output routine ]===========================================================
 
