@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2024-03-29
+
 ### Fixed
 - Patch debug log causing flood of warnings.
 
@@ -38,7 +40,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - The outcome of the languid gestation which lasted a lustrum.
 
-[unreleased]: https://github.com/paolobrasolin/commutative-diagrams/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/paolobrasolin/commutative-diagrams/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/paolobrasolin/commutative-diagrams/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/paolobrasolin/commutative-diagrams/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/paolobrasolin/commutative-diagrams/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/paolobrasolin/commutative-diagrams/releases/tag/v1.0.0
