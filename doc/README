@@ -1,6 +1,13 @@
 CoDi: Commutative Diagrams for TeX
 ==================================
 
-CoDi is  a TikZ library.   Its aim
-is  making   commutative  diagrams 
-easy to design, parse and tweak.
+CoDi is a TikZ library.
+Its aim is making commutative diagrams easy to design, parse and tweak.
+
+Package:     commutative-diagrams
+Maintainer:  Paolo Brasolin
+Contact:     paolo.brasolin@gmail.com
+Licence:     MIT
+Repository:  https://github.com/paolobrasolin/commutative-diagrams
+Bug tracker: https://github.com/paolobrasolin/commutative-diagrams/issues
+
