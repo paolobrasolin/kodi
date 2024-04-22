@@ -108,10 +108,10 @@
 
 \def\kDDTSGob%
   {\kDIfNextSoftCh\kD
-    {\message{A}\ifkDDTSPrevSpace\kDDTSHasTrailtrue\else\kDDTSHasTrailfalse\fi\kDGobbleHardTok}
-    {\message{B}\kDIfNextSoftCh\kDBlankSpace
-      {\message{Y}\kDDTSPrevSpacetrue\expandafter\kDDTSGob\kDGobbleSoftTok}
-      {\message{N}\kDDTSPrevSpacefalse\expandafter\kDDTSGob\kDGobbleHardTok}}}
+    {\ifkDDTSPrevSpace\kDDTSHasTrailtrue\else\kDDTSHasTrailfalse\fi\kDGobbleHardTok}
+    {\kDIfNextSoftCh\kDBlankSpace
+      {\kDDTSPrevSpacetrue\expandafter\kDDTSGob\kDGobbleSoftTok}
+      {\kDDTSPrevSpacefalse\expandafter\kDDTSGob\kDGobbleHardTok}}}
 
 \newif\ifkDDTSPrevSpace
 
