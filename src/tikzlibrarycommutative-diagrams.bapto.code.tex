@@ -26,7 +26,7 @@
 
 \pgfqkeys{/bapto/overwrite}{.is choice,
   false/.style={/bapto/controller/.code={\def\kDTmp{##1}\ifx\kDTmp\empty\else
-                                         \tikz@fig@name\ifx\tikz@fig@name\empty
+                                         \ifx\tikz@fig@name\empty
                                          \pgfqkeys{/bapto}{trigger={##1}}\fi\fi},
                 /bapto/dispatcher/.code={\pgfqkeys{/tikz}{name=##1}%
                                          \pgfqkeys{/bapto}{output=##1}}},
